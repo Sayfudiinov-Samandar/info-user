@@ -199,6 +199,7 @@ input, select{
     height: 26px;
     border-radius: 50%;
     background-color: #C7C7C7;
+    border: 1px solid transparent;
 }
 .card-input-bg::after{
     position: absolute;
