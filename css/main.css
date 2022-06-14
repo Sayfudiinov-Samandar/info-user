@@ -147,10 +147,11 @@ input, select{
     background-position: calc(5% + 6px) calc(5% + 5px);
 }
 .input-bg{
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     background-color: #F5F8F9;
+    border: 1px solid transparent;
 }
 
 .male-female-label > input:checked + .input-bg{
