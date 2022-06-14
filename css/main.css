@@ -50,6 +50,8 @@ h1,h2,h3,a,p{
     background-color: #fff;
     border-radius: 0px 21.25px 21.25px 0px;
     padding: 53px 84px 55px 71px;
+    display: flex;
+    justify-content: flex-end;
 }
 .right-box-place{
     display: flex;
@@ -88,6 +90,7 @@ h1,h2,h3,a,p{
     align-items: flex-end;
     color: #373D40;
     margin-right: 27px;
+    width: 40px;
 }
 
 .right-input{
@@ -96,6 +99,8 @@ h1,h2,h3,a,p{
     border-radius: 2.64604px;
     width: 190px;
     padding: 8.5px 10px;
+
+    
 }
 .male-female-radio{
     display: none;
@@ -113,6 +118,7 @@ input, select{
     align-items: flex-end;
     color: #373D40;
 }
+
 .right-input, data{
     font-style: normal;
     font-weight: 400;
@@ -182,7 +188,7 @@ input, select{
     font-size: 7.4089px;
     line-height: 9px;
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
     color: #B1BFCD;
 }
 .card-radio{
@@ -217,6 +223,10 @@ input, select{
     display: flex;
     align-items: center;
 }
+.right-label{
+    display: flex;
+    align-items: center;
+}
 .card-label > input:checked + .card-input-bg{
     width: 28px;
     height: 28px;
@@ -226,6 +236,7 @@ input, select{
 .right-box-button{
     display: flex;
     justify-content: flex-end;
+    margin: 0 auto;
 }
 .first-button{
     border: none;
