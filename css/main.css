@@ -195,8 +195,8 @@ input, select{
     display: none;
 }
 .card-input-bg{
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     background-color: #C7C7C7;
     border: 1px solid transparent;
